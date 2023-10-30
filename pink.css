@@ -33,12 +33,30 @@ header {
     border-bottom-color: #d8d8d8;
 }
 nav {
-    background:#d8d8d8;
+    background: #d8d8d8;
     font-weight: bold;
     float: left;
     height: 420px;
+    padding-right: 24px;
+    margin-right: 10px;
+    opacity: 0.8;
+}
+section {
+    background-image: url("media/pinkheart.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .floatright {
     float: right;
     clear: right;
+    margin: 10px;
+}
+.navlinks {
+    display: block;
+    border: 2px solid #e79dcf;
+    padding: 2px 5px;
+    background: #e6addb;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px #f3626c;
 }
