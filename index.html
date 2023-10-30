@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="utf-8" />
+        <title> Pink </title>
+        <style>
+            h2 ~ p {
+                font-style: italic;
+            }
+        </style>
+    </head>
 <link rel="Stylesheet" href="style.css">
-<title>pink</title>
+
 <script>
     function init() {
   var loc = window.location.href;
@@ -26,16 +33,19 @@ window.onload = init;
             <li><a href="pinkpanther.html">Pink Panther</a></li>
         </ul>
     </nav>
-    <article>
-        <h1>All things Pink</h1>
-        <p> 
-            This is a project for De Web Design. By: Anupama and Fatima
-        </p>
-        <video height="210" controls="controls">
-            <source src="media/video.mp4" type="video/mp4">
-            Your browser does not support the HTML5 video element.
-        </video>
-    </article>
+    <section>
+        <article>
+            <h1>All things Pink</h1>
+            <p> 
+                This is a project for De Web Design. By: Anupama and Fatima
+            </p>
+            <video height="210" controls="controls">
+                <source src="media/video.mp4" type="video/mp4">
+                Your browser does not support the HTML5 video element.
+            </video>
+        </article>
+    </section>
+    
     <article>
         <h1>Our Mission</h1>
         <img class="floatright" src="media/banner.jpg" height="114" alt="Speakers">

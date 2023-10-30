@@ -48,6 +48,12 @@ nav {
     height: 420px;
     padding-right: 24px;
     margin-right: 10px;
+    opacity: 0.8;
+}
+section {
+    background-image: url("media/Screen\ Shot\ 2023-10-29\ at\ 8.34.26\ PM.png");
+    background-repeat: no-repeat;
+    background-size:contain;
 }
 .floatright {
     float: right;
