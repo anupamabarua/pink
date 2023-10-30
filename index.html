@@ -1,16 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title> Pink </title>
-        <style>
-            h2 ~ p {
-                font-style: italic;
-            }
-        </style>
-    </head>
-<link rel="Stylesheet" href="style.css">
-
 <script>
     function init() {
   var loc = window.location.href;
@@ -22,48 +10,55 @@
 }
 window.onload = init;
 </script>
-    
+<head>
+    <meta charset="utf-8" />
+    <meta name="Description" content="Sample Website for learning HTML5 and CSS3" />
+    <link rel="stylesheet" type="text/css" href="pink.css" />
+    <title>uCorp</title>
+</head>
 <body>
     <header>
-        <img src="media/pinkheart.png" alt="heart" width="200" height="200">
+        <img src="media/logo.webp" alt="uCorp logo" />
     </header>
     <nav>
-        <nav>
-            <p><a class="navlinks" href="https://en.wikipedia.org/wiki/Barbie">Barbie</a></p>
-            <p><a class="navlinks" href="https://en.wikipedia.org/wiki/The_Pink_Panther">Pink Panther</a></p>
-        </nav>
+        <ul>
+            <li><a href="barbie.html">Barbie</a></li>
+            <li><a href="pinkpanthers.html">Pink Panthers</a></li>
+        </ul>
     </nav>
-    <section>
-        <article>
-            <h1>All things Pink</h1>
-                This is a project for De Web Design. By: Anupama and Fatima
-            
-            <video height="210" controls="controls">
-                <source src="media/video.mp4" type="video/mp4">
-                Your browser does not support the HTML5 video element.
-            </video>
-        </article>
-    </section>
-    
     <article>
-        <h2>Our Mission</h2>
-        We want to inform everyone on all the joys of anything pink!
-        <img class="floatright" src="media/banner.jpg" height="114" alt="Speakers">
-    
-        <audio controls="controls">
-            <source src="media/audio.mp4" type="audio/mpeg">
-            Your browser does not support the HTML5 audio element.
-        </audio>
-        
+        <h1>About Us</h1>
+        <p>
+            This is a rebranding project by Anupama and Fatima for DE Web Page Design and MultiWeb.
+        </p>
+        <img class="floatright" src="media/banner.jpeg" width="212" height="121" alt="Speakers" />
+    </article>
+    <article>
+        <h1>Our Mission</h1>
+        <p>
+            We hope to let people learn more about the color pink and where it came from and all things pink!
+        </p>
+        <video class="floatright" height="150" controls="controls">
+            <source src="media/video.mp4" type="video/mp4" />
+            Your browser does not support the HTML5 video element.
+        </video>
+    </article>
+        <h1> The color pink</h1>
+        The color pink originated as a concept in 800 B.C. in Homers Odyssey.
+        <p>
+            <audio controls="controls">
+                <source src="media/audio.mp4" type="audio/mpeg" />
+                Your browser does not support the HTML5 audio element.
+            </audio>
+        </p>
+
     </article>
     <footer>
-    <p>
-    <a id="vLink1"><strong> HTML </strong> Valid! </a> |
-    <a id="vLink2"><strong> CSS </strong> Valid! </a>
-    </p>
-    <p>
-    Copyright &copy; All rights reversed by pink
-    </p>
+        <a id="vLink1"><strong> HTML </strong> Valid! </a> |
+        <a id="vLink2"><strong> CSS </strong> Valid! </a>
+        <p>
+            Copyright &copy; All rights reserved by A&F
+        </p>
+        
     </footer>
-    </body>
-    </html>
+</body>
